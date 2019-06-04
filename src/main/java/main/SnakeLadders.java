@@ -13,10 +13,9 @@ public class SnakeLadders{
 	public static boolean snake(int i,int j) {
 		//snake is in 4th place thats the co-ordinate [1,2] i.e, i=1 & j=2
 		//write your code here
-		if(i==1 && j==2)
+		if(i == 1 && j == 2)
 		{
-			return true; 
-			
+			return true;
 		}
 		return false;
 	}
